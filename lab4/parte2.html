@@ -5,6 +5,33 @@
 
     </head>
     <body>
-        
+        <form id="form">
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="email">
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="password" id="">
+            </div>
+
+            <div>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+
+        <script>
+            const form = document.querySelector('#form');
+            
+
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+                let email = document.querySelector('#email').value;
+                let password = document.querySelector('#password').value;
+                console.log(email, password);
+            })
+        </script>
+
     </body>
 </html>
