@@ -1,3 +1,23 @@
- li{
-    color: blue;
+ul{
+    list-style-type: circle;
+}
+
+  .blue-one{
+        color: rgb(65, 105, 225);
   }
+
+  .blue-two{
+    color: rgb(79, 135, 175);
+}
+
+.blue-three{
+    color: rgb(42, 82, 116);
+}
+
+.blue-four{
+    color: rgb(14, 51, 161);
+}
+
+.blue-five{
+    color: rgb(1, 68, 250);
+}
