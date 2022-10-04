@@ -1,0 +1,8 @@
+body{
+    font-family: arial;
+}
+.name{
+    font-family: Georgia;
+    color: #375e97;
+    border-bottom: solid 2px #375e97;
+}
