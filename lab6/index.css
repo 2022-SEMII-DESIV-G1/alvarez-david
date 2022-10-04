@@ -15,3 +15,8 @@ body{
 .website{
     color: #fb6542;
 }
+.container{
+    border: 2px solid;
+    padding: 10px;
+    margin-right: 60rem;
+}
