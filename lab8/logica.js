@@ -1,13 +1,43 @@
-const a = "hola mundo";
+const a = "aaaiiiaabb          ";
 
 function repetida(texto){
-    var repetida = 0;
+    var repetida = 1;
     var letras = [];
     var almacenar = [];
 
-    texto = texto.toUpperCase().split("");
+    texto = texto.toUpperCase().replace(/ /g, "").split("").sort();
 
-    console.log(texto);
+    for(let i = 0; i < texto.length; i++){
+            if(texto[i + 1] === texto[i] ){
+                repetida ++;
+            }else{
+                letras.push(texto[i]);
+                almacenar.push(repetida);
+                repetida = 1;
+            }
+    }
+
+    //console.log(almacenar);
+    //console.log(letras);
+    //console.log(texto);
+
+    var valorMaximo = Math.max(...almacenar);
+    //console.log(valorMaximo);
+
+    var letrasRepetidas = "";
+
+    for (let i = 0; i < almacenar.length; i++) {
+        if(almacenar[i] === valorMaximo){
+            letrasRepetidas = letras[i];
+        }
+        
+    }
+
+    return letrasRepetidas + " = " + valorMaximo;
+
+
+    
 }
 
-repetida(a);
+const resultado = repetida(a);
+console.log(resultado);
