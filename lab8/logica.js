@@ -1,4 +1,4 @@
-const a = "aaaiiiaabb          ";
+const a = "aaaiiiaabb";
 
 function repetida(texto){
     var repetida = 1;
@@ -17,8 +17,8 @@ function repetida(texto){
             }
     }
 
-    //console.log(almacenar);
-    //console.log(letras);
+    console.log(almacenar);
+    console.log(letras);
     //console.log(texto);
 
     var valorMaximo = Math.max(...almacenar);

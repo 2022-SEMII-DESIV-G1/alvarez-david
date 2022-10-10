@@ -1,3 +1,4 @@
+
 .container{
     display: flex;
     justify-content: center;
@@ -10,5 +11,33 @@
     border: 2px solid;
     padding: 10%;
     justify-content: center;
-    background-color: rgb(20, 20, 84)
+    background-color: rgb(20, 20, 84);
+    border-radius: 10px;
+}
+
+.label1{
+    color: white;
+}
+
+.label2{
+    color: white;
+    display: block;
+}
+
+.button1{
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.button2{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
