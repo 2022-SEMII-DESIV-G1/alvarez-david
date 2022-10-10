@@ -1,6 +1,7 @@
 .container{
     display: flex;
     justify-content: center;
+    padding-top: 10%;
 }
 
 
@@ -9,4 +10,5 @@
     border: 2px solid;
     padding: 10%;
     justify-content: center;
+    background-color: rgb(20, 20, 84)
 }
