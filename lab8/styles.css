@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container2{
+    display: flex;
+    border: 2px solid;
+    padding: 10%;
+    justify-content: center;
+}
