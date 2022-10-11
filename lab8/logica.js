@@ -21,6 +21,13 @@ function repetida(){
 
     console.log(almacenar);
     console.log(letras);
+
+    document.getElementById('show').style.visibility = 'visible ';
+    
+
+    //document.write(almacenar);
+    //document.write(letras);
+    
     
 }
 

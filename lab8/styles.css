@@ -22,16 +22,6 @@ body{
     padding-bottom: 5%;
 }
 
-.ultimo{
-    display: flex;
-    justify-content: center;
-}
-
-.ulti{
-    display: flex;
-    justify-content: flex-start;
-}
-
 .label1{
     color: white;
 }
@@ -63,7 +53,7 @@ body{
     padding-left: 6%;
     padding-right: 6%;
     border: red;
-    
+    cursor: pointer;  
 }
 
 .button2{
@@ -74,4 +64,5 @@ body{
     padding-left: 6%;
     padding-right: 6%;
     border: blue;
+    cursor: pointer;
 }
