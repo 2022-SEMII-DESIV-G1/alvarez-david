@@ -22,6 +22,16 @@ body{
     padding-bottom: 5%;
 }
 
+.ultimo{
+    display: flex;
+    justify-content: center;
+}
+
+.ulti{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .label1{
     color: white;
 }
@@ -29,6 +39,10 @@ body{
 .label2{
     color: white;
     display: block;
+}
+.label3{
+    display: flex;
+    
 }
 
 .inp{
