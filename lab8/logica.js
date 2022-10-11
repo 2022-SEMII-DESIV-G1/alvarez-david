@@ -19,8 +19,8 @@ function repetida(){
             }
     }
 
-    console.log(almacenar);
-    console.log(letras);
+    //console.log(almacenar);
+    //console.log(letras);
 
     document.getElementById('show').style.visibility = 'visible';
     
@@ -31,6 +31,6 @@ function repetida(){
 function limpiar() {
     document.getElementById("cadenita").value = "";
     document.getElementById('show').style.visibility = 'hidden'; 
-    document.getElementById("resultado").innerHTML= " " ;
+    document.getElementById("resultado").innerHTML= " ";
   }
 
