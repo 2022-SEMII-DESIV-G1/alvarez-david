@@ -31,5 +31,6 @@ function repetida(){
 function limpiar() {
     document.getElementById("cadenita").value = "";
     document.getElementById('show').style.visibility = 'hidden'; 
+    document.getElementById("resultado").innerHTML= " " ;
   }
 
