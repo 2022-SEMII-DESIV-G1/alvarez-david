@@ -26,8 +26,11 @@ function repetida(){
     
 
     //document.write(almacenar);
-    //document.write(letras);
-    
-    
+    //document.write(letras);   
 }
+
+function limpiar() {
+    document.getElementById("cadenita").value = "";
+    
+  }
 
