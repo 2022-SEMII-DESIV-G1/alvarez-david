@@ -48,6 +48,7 @@ body{
     padding: 2%;
     padding-left: 6%;
     padding-right: 6%;
+    border: red;
     
 }
 
@@ -58,4 +59,5 @@ body{
     padding: 2%;
     padding-left: 6%;
     padding-right: 6%;
+    border: blue;
 }
