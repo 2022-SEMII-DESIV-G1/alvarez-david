@@ -22,15 +22,14 @@ function repetida(){
     console.log(almacenar);
     console.log(letras);
 
-    document.getElementById('show').style.visibility = 'visible ';
+    document.getElementById('show').style.visibility = 'visible';
     
+    document.getElementById("resultado").innerHTML= "Cantidad de veces repetidas " + almacenar +" de las letras " + letras;
 
-    //document.write(almacenar);
-    //document.write(letras);   
 }
 
 function limpiar() {
     document.getElementById("cadenita").value = "";
-    
+    document.getElementById('show').style.visibility = 'hidden'; 
   }
 

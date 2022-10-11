@@ -21,6 +21,11 @@ body{
     justify-content: center;
     padding-bottom: 5%;
 }
+.result{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
 
 .label1{
     color: white;
