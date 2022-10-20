@@ -17,6 +17,8 @@ let arreglo15 = [04, 62, 98, 27, 23, 09, 70, 98, 73, 93, 38, 53, 60, 04, 23];
 let arreglof = [arreglo1, arreglo2, arreglo3, arreglo4, arreglo5, arreglo6, arreglo7, arreglo8, arreglo9, arreglo10, arreglo11, 
                 arreglo12, arreglo13, arreglo14, arreglo15];
 
+let arregloR = [];
+
 
 //document.write(arreglo5);
 
@@ -25,6 +27,25 @@ let arreglof = [arreglo1, arreglo2, arreglo3, arreglo4, arreglo5, arreglo6, arre
 for(var i = 0; i<arreglof.length; i++){    
     console.log(""+arreglof[i])      
 } 
+
+let contador=0;
+
+for(var i=0; i<15; i++){
+    contador += arreglof[i][0];
+}
+console.log(contador);
+arregloR[0] = contador;
+contador = 0; 
+
+for(var i=0; i<15; i++){
+    contador += arreglof[i][i];
+}
+console.log(contador);
+arregloR[1] = contador;
+
+
+
+//console.log(arregloR);
 
 /* arreglo5.forEach((l, i) => {
     console.log( ""+arreglo5[i]);
