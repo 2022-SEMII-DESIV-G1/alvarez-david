@@ -22,61 +22,9 @@ let arreglof = [arreglo1, arreglo2, arreglo3, arreglo4, arreglo5, arreglo6, arre
 
 //document.write("<p>" + arreglo5 + "</p>");
 
-for(var i = 0; i<arreglof.length; i++){
-        if(i === 0){
-            console.log("\t\t\t\t\t\t\t\t\t\t "+arreglof[0]);   
-        }
-        if(i === 1){
-            console.log("                                        "+arreglof[1]); 
-        }
-        if(i === 2){
-            console.log("                                       "+arreglof[2]); 
-        }
-        if(i === 3){
-            console.log("                                      "+arreglof[3]); 
-        }
-        if(i === 4){
-            console.log("                                     "+arreglof[4]); 
-        }
-        if(i === 5){
-            console.log("                                    "+arreglof[5]); 
-        }
-        if(i === 6){
-            console.log("                                   "+arreglof[6]); 
-        }
-        if(i === 7){
-            console.log("                                  "+arreglof[7]); 
-        }
-        if(i === 8){
-            console.log("                                 "+arreglof[8]); 
-        }
-        if(i === 9){
-            console.log("                                "+arreglof[9]); 
-        }
-        if(i === 10){
-            console.log("                               "+arreglof[10]); 
-        }
-        if(i === 11){
-            console.log("                              "+arreglof[11]); 
-        }
-        if(i === 12){
-            console.log("                             "+arreglof[12]); 
-        }
-        if(i === 13){
-            console.log("                            "+arreglof[13]); 
-        }
-        if(i === 14){
-            console.log("                           "+arreglof[14]); 
-        }
-
-        
-}
-
-
-/*for(var j = 0; j<arreglof.length; j++){
-    console.log(""+arreglof[j]);
-} */
-
+for(var i = 0; i<arreglof.length; i++){    
+    console.log(""+arreglof[i])      
+} 
 
 /* arreglo5.forEach((l, i) => {
     console.log( ""+arreglo5[i]);
