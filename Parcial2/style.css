@@ -1,0 +1,12 @@
+.pira{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+.pir{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
