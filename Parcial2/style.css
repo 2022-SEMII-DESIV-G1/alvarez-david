@@ -1,3 +1,8 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
 .pira{
     display: flex;
     justify-content: center;
@@ -10,4 +15,12 @@
     align-items: center;  
 }
 
+div > div{
+    background-color: aqua;
+    border-radius: 5px;
+}
 
+button{
+    border-radius: 10px;
+    cursor: pointer;  
+}

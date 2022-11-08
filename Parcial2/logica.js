@@ -1,3 +1,5 @@
+function calcular(){
+
 let arreglo =[ 
     [75],
     [95, 64], 
@@ -14,49 +16,44 @@ let arreglo =[
     [91, 71, 52, 38, 17, 14, 91, 43, 58, 50, 27, 29, 48],
     [63, 66, 04, 68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31],
     [04, 62, 98, 27, 23, 09, 70, 98, 73, 93, 38, 53, 60, 04, 23]]; 
-    
-
-    let prueba = [ [1],
-    [2,3],
-    [4,5,6]];
-    
-    let suma = 0;
-    let suma2 = 0;
+ 
     let a = 0;
-   
-
-    /*
-    for(var i = 0; i<arreglo.length; i++){ 
-        
-        for(var k = i; k < 15; ++k){
-            document.write("\n");
-        }
-        document.write("["+arreglo[i]+"]");
-    
-        document.write("<br>")
-    } */
 
     for(var i = 0; i <=14; i++){
         for(var j = 0; j <= a; j++){
             document.getElementById('result').innerHTML += "["+ arreglo[i][j]+"]";
         }
-        document.getElementById('result').innerHTML += "<p>"+"</p>";
+        document.getElementById('result').innerHTML += "<div>"+"</div>";
         a=a+1;
     }
-    
-    var acum = 0;
-    for(var i = 0; i<15; i++){    
+
+        let suma = 0;
+        let suma2 = 0;
+        
+
+        var acum = 0;
+        for(var i = 0; i<15; i++){    
         
         acum += arreglo[i][0];
-    }
+        }
     
-    for(var i = 0; i<15; i++){    
+        for(var i = 0; i<15; i++){    
         
         suma+= arreglo[i][i];
-    } 
-    
-    
-    
-    console.log(acum);
-    console.log(suma);
-    console.log(suma2);
+        } 
+        
+        let arreglo2 = [acum,suma];
+        console.log(arreglo2);
+
+        var gg = 0;
+
+        for(var i = 0; i<arreglo2.length; i++){
+            if(arreglo2[0] > arreglo2[1]){
+                gg = arreglo2[0];
+            }else{
+                gg = arreglo2[1];
+            }
+        }
+
+        document.getElementById('resultado').innerHTML +="La ruta mayor es: "+ "["+ gg +"]";
+    }
